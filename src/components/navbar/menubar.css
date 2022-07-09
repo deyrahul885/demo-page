@@ -1,0 +1,57 @@
+.btn-wraper{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.btn{
+    background-color: #eeeeee;
+    border-radius: 20px;
+    
+}
+.tab-mob{
+    display:none
+}
+a{
+    text-decoration: none;
+    color:grey
+}
+/* .css-lo5dto-MuiButtonBase-root-MuiTab-root{
+    color: #fff !important;
+    background-color: rgb(237 28 36)!important;
+} */
+.css-fdx5cf-MuiButtonBase-root-MuiTab-root.Mui-selected,
+.css-lo5dto-MuiButtonBase-root-MuiTab-root.Mui-selected
+{
+    color: #fff !important;
+    background-color: rgb(237 28 36);
+}
+
+
+ /* for mobile view */
+
+@media only screen and (max-width:480px) {
+    .tab-desktop{
+        display: none;
+    }
+    .btn-wraper{
+        width: 94vw;
+        margin:auto
+    }
+    .btn{
+        width:100%
+    }
+    .tab-mob{
+        display:block
+    }
+    #text{
+        text-decoration: none;
+        color:grey
+    }
+    .css-11crrqi-MuiButtonBase-root-MuiTab-root.Mui-selected
+    .css-1omp298-MuiButtonBase-root-MuiTab-root.Mui-selected
+    .css-18lvj6t-MuiButtonBase-root-MuiTab-root.Mui-selected
+    {
+            color: #fff ;
+            background-color: rgb(237 28 36);
+    }
+}

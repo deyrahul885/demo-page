@@ -1,0 +1,11 @@
+/* rgb(237 28 36); */
+.tab-btn{
+    display:flex;
+    justify-content:center ;
+    padding:60px
+}
+@media only screen and (max-width:480px) {
+    .tab-btn{
+        padding:60px 0
+    }
+}

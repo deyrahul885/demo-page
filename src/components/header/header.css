@@ -1,0 +1,45 @@
+.header-wraper{
+    width:95%;
+    margin: 40px auto;
+}
+
+.logo-img{
+    height:3.5rem;
+}
+.header-div{
+    display: flex;
+    justify-content:space-between;
+}
+.time{
+    font-size: 1.1rem;
+}
+.blue-text{
+    color:rgb(0 114 188);
+}
+.red-text{
+    color:rgb(237 28 36);
+}
+
+.bounceBack-logo{
+    height: 9.4rem;
+    margin-left: 30px;
+}
+
+ /* for mobile view */
+
+@media only screen and (max-width:480px) {
+   
+    .logo-img{
+        height:2.5rem;
+        width: 18%;
+    }
+    .bounceBack-logo{
+        height: 7rem;
+        width: 40%;
+        margin: 30px 8px 0 24px;
+    }
+    .time{
+        font-size: 0.8rem;
+        /* font-family: 'sans-serif'; */
+    }
+}
